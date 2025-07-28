@@ -26,8 +26,8 @@ ul {
   float: left;
   justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  gap: 60px;
+   justify-content: space-between; 
+   gap: 60px; 
 }
 
 ul li {
@@ -45,7 +45,7 @@ ul li a {
   transition: 0.4s ease-in-out;
 }
 
-ul li a:hover{
+ul li a:hover {
   color: #ff2600e7;
 }
 
@@ -68,7 +68,7 @@ h1 {
   font-size: xx-large;
 }
 
-p{
+p {
   color: rgba(240, 248, 255, 0.699);
   text-align: justify;
   padding-left: 70px;
@@ -82,7 +82,7 @@ p{
   align-items: center;
 }
 
-.humpy50 h1{
+.humpy50 h1 {
   /* font-style: italic; */
   font-family: "Times New Roman";
   font-size: xx-large;
@@ -111,13 +111,20 @@ p{
   grid-template-columns: 1fr 1fr;
 }
 
-.btn.btn2{
+.btn,
+.btn2 {
   background-color: yellow;
   color: yellow;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 50px;
+  box-sizing: border-box;
   transition: background-color 0.3s ease;
+  width: 200px;
+  height: 50px;
 }
+
+
+
